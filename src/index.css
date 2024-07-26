@@ -1,0 +1,19 @@
+:root{
+  --Hedernavbar-color:#eeeeee;
+  --icons-color:#000;
+  --text-color:#000;
+  --item-color:#fff;
+  --banner-color:#000;
+  --toggle-bg: #f0eb9d;
+  --toggle-fg: #ffd000;
+}
+  
+  [data-theme="dark"]{
+    --Hedernavbar-color:#1f1f1f;
+    --icons-color:#fff;
+    --text-color:#fff;
+    --item-color:#000;
+    --banner-color:#fff;
+    --toggle-bg: #283452;
+    --toggle-fg: #00a6ff;
+  }

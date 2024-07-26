@@ -1,0 +1,63 @@
+.Hedernavbar{
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: 99;
+    position: absolute;
+}
+.Hedernavbar-container{
+    width: 100%;
+    height: 40px;
+    background:var(--item-color);
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.Hedernavbar-container-icons{
+    font-size: 20px;
+    margin-left: 5px;
+    color:var(--icons-color);
+}
+.Hedernavbar-container-input{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.Hedernavbar-container-input input{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--icons-color);
+    color: #fff;
+}
+.Hedernavbar-container-input input::placeholder{
+    font-size: 15px;
+    text-indent: 20px;
+}
+.Hedernavbar-container-golos{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #343434;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+.Hedernavbar-container2{
+    width: 100%;
+    height: 100%;
+    background:var(--Hedernavbar-color);
+    margin-top: 40px;
+}

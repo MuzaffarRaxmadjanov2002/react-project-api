@@ -1,0 +1,50 @@
+.settings-menu-open{
+    width: 100%;
+    height: 50px;
+    background:var(--banner-color);
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    top: 160px;
+    color: var(--item-color);
+}
+.settings-icons-icon{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.settings-icons-icon h1{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.settings-icons-icon-ikon{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.settings-menu-open p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+@media screen and (max-width:680px) {
+    .settings-icons-icon h1{
+        font-size: 20px;
+    }
+    .settings-icons-icon-ikon{
+        font-size: 20px;
+    }
+    .settings-menu-open p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:371px) {
+    .settings-icons-icon h1{
+        font-size: 15px;
+    }
+    .settings-icons-icon-ikon{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,185 @@
+.banner-icons{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.navbar-menu-open{
+    width: 170px;
+    height: 267px;
+    background:var(--item-color);
+    margin-top: 20px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: 99;
+}
+.home-banner-icons{
+    width: 60px;
+    height: 267px;
+    position: absolute;
+    background:var(--item-color);
+    margin-top: 20px;
+    color: #fff;
+}
+.home-banner-icons-icon1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icons-color);
+}
+.home-banner-icons-icon2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icons-color);
+}
+.home-banner-icons-icon3{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icons-color);
+}
+.home-banner-icons-icon4{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icons-color);
+}
+.house{
+    font-size: 25px;
+}
+.house1{
+    font-size: 25px;
+}
+.house2{
+    font-size: 25px;
+}
+.house3{
+    font-size: 25px;
+}
+.Home1{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+.Home1:hover{
+    background: rgb(0, 0, 172);
+}
+.Home1 h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+
+.shorts{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+.shorts:hover{
+    background: rgb(0, 0, 172);
+}
+.shorts h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+
+
+.pleylist{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+.pleylist:hover{
+    background: rgb(0, 0, 172);
+}
+.pleylist h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+.settings{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+.settings:hover{
+    background: rgb(0, 0, 172);
+}
+.banner-icons{
+    color: var(--icons-color);
+}
+@media screen and (max-width:680px) {
+    .navbar-menu-open{
+        width: 150px;
+    }
+    .pleylist h1{
+        font-size: 20px;
+    }
+    .house2{
+        font-size: 20px;
+    }
+    .shorts h1{
+        font-size: 20px;
+    }
+    .house1{
+        font-size: 20px;
+    }
+    .Home1 h1{
+        font-size: 20px;
+    }
+    .house{
+        font-size: 20px;
+    }
+    .house3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:371px) {
+    .navbar-menu-open{
+        width: 130px;
+    }
+    .pleylist h1{
+        font-size: 15px;
+    }
+    .house2{
+        font-size: 15px;
+    }
+    .shorts h1{
+        font-size: 15px;
+    }
+    .house1{
+        font-size: 15px;
+    }
+    .Home1 h1{
+        font-size: 15px;
+    }
+    .house{
+        font-size: 15px;
+    }
+    .house3{
+        font-size: 15px;
+    }
+}

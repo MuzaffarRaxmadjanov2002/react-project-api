@@ -1,0 +1,173 @@
+.Login{
+    width: 100%;
+    min-height: 650px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 9999;
+    background:#fff;
+}
+
+  .container{
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 5px rgb(63, 62, 62);
+  }
+  .login{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .user{
+    width: 70%;
+    height: 25px;
+  }
+  .input{
+    width: 70%;
+    height: 30px;
+    border: 1px solid grey;
+    /* margin-left: 10%; */
+    display: flex;
+    overflow: hidden;
+  }
+  .input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+  .userr{
+    margin-top: 5px;
+    color: grey;
+  }
+  .text{
+    font-size: 13px;
+    margin-top: 3px;
+    color: grey;
+    margin-left: 2px;
+  }
+  .pasword{
+    width: 70%;
+    height: 25px;
+  
+    margin-top: 5%;
+  }
+  .psword{
+    width: 70%;
+    height: 30px;
+    border: 1px solid grey;
+  
+    display: flex;
+    overflow: hidden;
+  }
+  .psword input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+  .block{
+    margin-top: 5px;
+    color: grey;
+  }
+  
+  .mainn{
+    width: 70%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .mainn p{
+    font-size: 13px;
+  }
+  .mainn h1{
+    flex: 1;
+  }.logiin{
+    width: 100%;
+    height: 40px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lognn{
+    font-size: 20px;
+    width:200px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: rgb(25, 156, 23);
+  }
+  .signup{
+    width: 100%;
+    height: 20px;
+    margin-top: 5%;
+  }
+  .ttx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #000;
+  }
+  .face{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+  }
+  .google{
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .sign{
+    width: 100%;
+    height: 20px;
+    margin-top: 17%;
+  }
+  .qwe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+  .up{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .facebok{
+    margin-left: -10px;
+    cursor: pointer;
+  }
+  .twitter{
+    margin-left: 10px;
+    cursor: pointer;
+    
+  }
+.fax{
+ margin-left: 350px;
+ color: #000;
+}

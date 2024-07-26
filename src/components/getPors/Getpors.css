@@ -1,0 +1,43 @@
+.tex{
+    color: red;
+}
+
+.Getpors{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Getpors form{
+    width: 400px;
+    height: 500px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Admin-user{
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Admin-user-users-icon{
+    font-size: 40px;
+}
+.Admin-Addbtn{
+    width: 160px;
+    height: 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+    color: #fff;
+    background: red;
+    border: none;
+
+
+
+}
